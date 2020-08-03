@@ -1,0 +1,93 @@
+points in HTML:
+
+	- <div>, <span> act as generic containers & '<p>' are semantic in that the contents are wrapped in '</p>'
+
+	- Block & Inline Elements: classification of Elements in HTML.
+
+		-- Block-level element:
+			1. begins on newline, stacking one on top
+			2. expand over entire width
+			3. can be nested over other inline or block level
+			used in paragraphs.
+			eg. <div>
+
+		-- Inline-level element:
+			1. fall into normal flow of doc., lining up
+			2. expand over their content width
+			3. only Inline where nested inside.
+			eg. <span>
+
+	- Comments in HTML and CSS:
+
+		HTML: <!--- comments -->
+		CSS:  /*--- comments -->
+
+	- Headings in HTML:
+
+		<h1> blah.. blah.. blah.. <h1>
+					..
+					..
+					..
+		<h6> blah.. blah.. blah.. <h6>
+
+	- important elements in HTML:
+		1. paragraph:	<p>
+		2. bold: they both do same but diff. in semantics
+
+			-- <strong>: used when strong important top to text.
+
+			-- <b>: not used for text deserving prominent attention
+		3. italicise: they both do same but diff. in 
+			semantics
+
+			-- <em>: more emphasis on text
+
+			-- <i>: alternative tone
+
+	- Building structure
+	+-------------------------------------------------+
+	|                     header                      |
+	+-------------------------------------------------+
+	+---------------------------+ +-------------------+
+	|                           | |                   |
+	|        section            | |                   |
+	|                           | |     aside         |
+	|                           | |                   |
+	| +-----------------------+ | |                   |
+	| |     article           | | |                   |
+	| |                       | | |                   |
+	| +-----------------------+ | |                   |
+	+---------------------------+ +-------------------+
+	+-------------------------------------------------+
+	|                     footer                      |
+	+-------------------------------------------------+
+
+		1. header: falls within body.., heading of the segment of a page
+			used in-:
+			- identifying top of page
+			- may include article, section, nav etc.
+
+		2. Navigation: primary navigation section.
+
+		3. Article: independent self contained content
+
+		4. Section: used in identifying a thematic grouping of content.
+
+		5. Aside: holds content sidebars, inserts. its related to surrounding contents.
+
+		6. Footer: positioned at the end of page
+
+	refernce using a tag:
+
+		<a href=" blah.. blah.. blah..">enter here</a>
+		while using mail:
+		<a href="mailto:nks77811@gmail.com?subject=urgent%20reply&body=its%20nitish">
+
+		opening in new window- use target attr. using _blank as value.
+
+		can be linked to same page using id.
+		eg, <body id="top">
+				...
+				<a href="#top" .. > Back to top </a>
+				...
+			</body>

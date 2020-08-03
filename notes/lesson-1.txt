@@ -1,0 +1,37 @@
+HTML:
+	define content and structure
+
+	--terms in html
+		- element
+		- attribute
+		- tags
+CSS:
+	define the visual style appearence of our
+	web pages
+
+	--terms in CSS
+		- Selectors: it selects the elements/element to 
+		  tagret in html using attr. val. e.g. id, class
+
+		- diff. type of common selectors:
+		  	1. type: selects on the basis of element type
+		  		eg. div { .. } in css.
+
+		  	2. class: select on the basis of elements class
+		  		more precise than 'type' selector
+		  		eg. .class1 { .. }
+
+		  	3. ID: on the basis of Id attr. of elements.
+		  		more precise than 'class' selector.
+		  		eg. #idname { .. }
+
+		- properties: it apply styles to selected elements
+		  e.g. background, font-size, height
+
+		- values: val. of the property.
+
+		eg.
+			p {
+				color: orange;
+				font-size: 16px;
+			}

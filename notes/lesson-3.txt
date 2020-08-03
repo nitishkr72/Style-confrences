@@ -1,0 +1,33 @@
+Getting to know about CSS--
+	
+	Calculating Specificity -:
+		ID - Class - Type
+		 0 -   0   -   0
+		- higher specificity value more superior the selector will be.
+
+	Specificity for combined class -:
+		- add both values
+
+	******************************************************************
+	Higher the specificity weight, more likely the cascade is to break
+	******************************************************************
+
+	common CSS property value -:
+		- Colors: standard RGB (sRGB)
+		  ways to represent sRGB-
+		  	1. keywords: e.g. Red, Blue, Green
+		  	2. hexadecimal: e.g. ff6600
+		  	3. RGB: e.g. rgb(128, 255, 46)
+		  		rgba(123, 128, 46, 0.5)
+		  		4th value is for transparency
+		  	4. HSL: hsl(hue, saturation, lightness)
+		       hue value range 0-360
+		       2nd and 3rd have precentage
+		       e.g. hsl(240, 100%, 25%)
+		       hlsa(hue, saturation, lightness, alpha)
+
+		- Length: two diff. form
+		  1. Absolute: fixed to physical measurement.
+		     eg. px (1/96th of a inch)
+		  2. Relative: rely on the length of another measurement
+		     eg. %, em(font size*Xem = val px)
